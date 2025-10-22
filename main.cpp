@@ -33,7 +33,7 @@ int main() {
     }
 
     // Read image
-    Mat img = imread("test5.jpg");
+    Mat img = imread("test.jpg");
     if (img.empty()) {
         cout << "Failed to load image!" << endl;
         return -1;
