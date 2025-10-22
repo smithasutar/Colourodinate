@@ -16,9 +16,9 @@ string detectUndertone(const Mat& face) {
     cout << "Y: " << Y << "  Cr: " << Cr << "  Cb: " << Cb << endl;
 
     // Simple rule-based classification
-    if (Cr > Cb + 5)
+    if (Cr > Cb + 20)
         return "Warm Undertone";
-    else if (Cb > Cr + 5)
+    else if (Cb > Cr + 20)
         return "Cool Undertone";
     else
         return "Neutral Undertone";
