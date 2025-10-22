@@ -73,9 +73,5 @@ int main() {
     waitKey(0);
     return 0;
 }
-// x64 Native Tools Command Prompt for VS 2022
-// cd C:\Users\sutar\Colourodinate
-// cl main.cpp /EHsc /I "C:\Users\sutar\Software\Opencv CPP\opencv\build\include" ^
-// /link /LIBPATH:"C:\Users\sutar\Software\Opencv CPP\opencv\build\x64\vc16\lib" opencv_world4120.lib
-// main.exe
+
 
